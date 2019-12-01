@@ -4,7 +4,7 @@ def calculate_fuel(mass):
     return int(mass / 3) - 2
 
 script_dir = os.path.dirname(os.path.abspath(__file__)) #<-- absolute dir the script is in
-rel_path = "input.txt"
+rel_path = "input"
 abs_file_path = os.path.join(script_dir, rel_path)
 
 file = open(abs_file_path, 'r')
